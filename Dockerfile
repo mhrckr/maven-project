@@ -4,5 +4,5 @@ ADD ./webapp/target/*.war /usr/local/tomcat/webapps/
 
 EXPOSE 8080
 
-CMD ["catlina.sh", "run"]
+CMD ["catlina.bat", "run"]
 
